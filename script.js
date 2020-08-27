@@ -1,12 +1,12 @@
 // Assignment Code
 var uppercase = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O',
 'P','Q','R','S','T','U','V','W','X','Y','Z'];
-var uppercase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o',
+var lowercase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o',
 'p','q','r','s','t','u','v','w','x','y','z'];
 var numbers = ['1','2','3','4','5','6','7','8','9','0'];
 
 function userInfo(){
-var length = parseInt (prompt("How many chacters would you like your password to be"));
+var length = parseInt (prompt("How many character would you like your password to be"));
 if( length < 8 || length > 129){
   alert("The password must be min 8 characters and no more than 128 chacters");
   return;
@@ -15,7 +15,7 @@ var upper = confirm("Would you like to use uppercase letters in your password");
 var lower = confirm("Would you like to use lowercase letters in your password");
 var num = confirm(" Would you like to use numbers in your password");
 if(upper === false && lower === false && num === false){
-  alert ("At lest one type of chacters must be used");
+  alert ("At lest one type of characters must be used");
   return;}
   var useroptions = {
     length: length,
