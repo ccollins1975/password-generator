@@ -8,7 +8,7 @@ var numbers = ['1','2','3','4','5','6','7','8','9','0'];
 function userInfo(){
 var length = parseInt (prompt("How many character would you like your password to be"));
 if( length < 8 || length > 129){
-  alert("The password must be min 8 characters and no more than 128 chacters");
+  alert("The password must be min 8 characters and no more than 128 charters");
   return;
 }
 var upper = confirm("Would you like to use uppercase letters in your password");
